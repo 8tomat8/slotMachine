@@ -2,6 +2,10 @@
 
 Implemented according to the description from here https://wizardofodds.com/games/slots/atkins-diet/
 
+**IMPLEMENTATION DOES NOT COVERED WITH TESTS**
+
+This implementation was tested only manually. To use it in production add unit tests.
+
 ## Usage
 
 Application has only one HTTP endpoint to create a spin
