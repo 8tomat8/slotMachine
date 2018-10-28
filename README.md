@@ -8,6 +8,13 @@ This implementation was tested only manually. To use it in production add unit t
 
 ## Usage
 
+To build and run this app you need to have installed Go. All dependencies are included into repository.
+
+    git clone https://github.com/8tomat8/slotMachine.git
+    cd slotMachine
+    go build -o app github.com/8tomat8/slotMachine/cmd/server
+    ./app
+
 Application has only one HTTP endpoint to create a spin
 
     POST /api/machines/atkins-diet/spins
